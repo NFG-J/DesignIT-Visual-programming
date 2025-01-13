@@ -4,7 +4,7 @@ This is a first minimum viable solution for drag and drop webdesign with HTML, m
 Installation:
 All files should be downloaded and installed as follows:
 index2.html and excel_to_python2.py in root folder of your chosen IDE (I uses Webstorm, so, for me; WebstormProjects; DesignIT_2.03 (folder)
-Subolders (and content, files);
+Subfolders (and content, files);
 css (StudioStyle.css)
 data (components.json, and WebComponents (version 2025-01-09).xlsx)
 js (StudioScriptTwo.js)
