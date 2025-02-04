@@ -8,6 +8,7 @@ Subfolders (and content, files);
 css (StudioStyle.css)
 data (components.json, and WebComponents (version 2025-01-09).xlsx)
 js (StudioScriptTwo.js)
+img (Rain.png and puppy-header-logo.jpg)
 Webstorm may create subfolder .idea and a folder exported for canvases that you export using the system
 
 You can run test and use the system using e g Chrome.
