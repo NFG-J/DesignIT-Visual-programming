@@ -14,8 +14,8 @@
     {
         "Title": "Article",
         "HTML": "<article class=\"forecast\">\n  <h1>Weather forecast for Seattle</h1>\n  <article class=\"day-forecast\">\n    <h2>03 March 2018</h2>\n    <p>Rain.</p>\n  </article>\n  <article class=\"day-forecast\">\n    <h2>04 March 2018</h2>\n    <p>Periods of rain.</p>\n  </article>\n  <article class=\"day-forecast\">\n    <h2>05 March 2018</h2>\n    <p>Heavy rain.</p>\n  </article>\n</article>",
-        "CSS": "/* Article */\n.forecast {\n  margin: 0;\n  padding: 0.3rem;\n  background-color: #eee;\n}\n\n.forecast > h1,\n.day-forecast {\n  margin: 0.5rem;\n  padding: 0.3rem;\n  font-size: 1.2rem;\n}\n\n.day-forecast {\n  background: right/contain content-box border-box no-repeat\n    url('/media/examples/rain.svg') white;\n}\n\n.day-forecast > h2,\n.day-forecast > p {\n  margin: 0.2rem;\n  font-size: 1rem;\n}",
-        "Reference": "Article NB the media folder and figure (CSS) is not integrated: \nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/article "
+        "CSS": "/* Article */\n.forecast {\n  margin: 0;\n  padding: 0.3rem;\n  background-color: #eee;\n}\n\n.forecast > h1,\n.day-forecast {\n  margin: 0.5rem;\n  padding: 0.3rem;\n  font-size: 1.2rem;\n}\n\n.day-forecast {\n  background: right/contain content-box border-box no-repeat\n    url('/img/Rain.png') white;\n}\n\n.day-forecast > h2,\n.day-forecast > p {\n  margin: 0.2rem;\n  font-size: 1rem;\n}",
+        "Reference": "Article. NB you need an 'img' folder for images, and a path to it and the image-file (in the CSS)! Refr.:\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/article "
     },
     {
         "Title": "Button",
@@ -56,8 +56,8 @@
     {
         "Title": "Header",
         "HTML": "<header>\n  <a class=\"logo\" href=\"#\">Cute Puppies Express!</a>\n</header>\n\n<article>\n  <header>\n    <h1>Beagles</h1>\n    <time>08.12.2014</time>\n  </header>\n  <p>I love beagles <em>so</em> much! Like, really, a lot. They’re adorable and their ears are so, so snugly soft!</p>\n</article>",
-        "CSS": "/* Header */\n.logo {\n  background: left / cover url('/media/examples/puppy-header-logo.jpg');\n  display: flex;\n  height: 120px;\n  align-items: center;\n  justify-content: center;\n  font:\n    bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',\n    fantasy;\n  color: #ff0083;\n  text-shadow: #000 2px 2px 0.2rem;\n}\n\nheader > h1 {\n  margin-bottom: 0;\n}\n\nheader > time {\n  font: italic 0.7rem sans-serif;\n}",
-        "Reference": "Header NB the media folder and figure (CSS) is not integrated: \nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/header "
+        "CSS": "/* Header */\n.logo {\n  background: left / cover url('/img/puppy-header-logo.jpg');\n  display: flex;\n  height: 120px;\n  align-items: center;\n  justify-content: center;\n  font:\n    bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',\n    fantasy;\n  color: #ff0083;\n  text-shadow: #000 2px 2px 0.2rem;\n}\n\nheader > h1 {\n  margin-bottom: 0;\n}\n\nheader > time {\n  font: italic 0.7rem sans-serif;\n}",
+        "Reference": "Header. NB you need an 'img' folder for the image, and a path to it and the image-file (in the CSS)! Refr. and image source: \nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/header "
     },
     {
         "Title": "Header Group",
