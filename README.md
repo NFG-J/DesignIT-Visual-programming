@@ -11,7 +11,7 @@ js (StudioScriptTwo.js)
 img (Rain.png and puppy-header-logo.jpg)
 Webstorm may create subfolder .idea and a folder exported for canvases that you export using the system
 
-You can run test and use the system using e g Chrome.
+You can run test and use the system using e g Chrome. When you export a HTML/CSS file, you need to copy the code back to your HTML-studio (E.g., WebStorm), and run the file to see the images!
 
 Idea: 
 I wanted to make a web-based studio for design of webpages, in HTML and JavaScript.
